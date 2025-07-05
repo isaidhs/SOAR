@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Card 1 */}
       <a
-        href="/portfolio/project-1"
+        href="https://isaidhs.medium.com/"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <img
@@ -30,7 +30,7 @@ export default function Home() {
 
       {/* Card 2 */}
       <a
-        href="/portfolio/project-1"
+        href="https://public.tableau.com/app/profile/irfanda.husni7244/vizzes"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <img
