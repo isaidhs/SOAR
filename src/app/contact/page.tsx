@@ -5,7 +5,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-20">
       
       <h1 className="text-4xl font-bold mb-8 border-b border-gray-700 pb-2 w-full max-w-4xl text-left">
-        Let's connect!
+        Reach me at
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-4xl text-center">
