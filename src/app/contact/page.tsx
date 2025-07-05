@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-20">
       
-      <h1 className="text-4xl font-bold mb-8 border-b border-gray-700 pb-2 w-full max-w-4xl text-left">
+      <h1 className="text-4xl font-bold mb-8 border-b border-gray-700 pb-2 w-full max-w-4xl text-left motion-preset-slide-right">
         Reach me at
       </h1>
 
