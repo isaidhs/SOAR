@@ -23,7 +23,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
           </div>
         </nav>
-        <main>{children}</main>
+        <main>{children}
+
+          <footer className="w-full mt-20 py-6 border-t border-gray-900 text-center">
+            <p className="text-sm text-gray-600">Irfanda Sahid © 2025</p>
+          </footer>
+        </main>
       </body>
     </html>
   )

@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <main className="min-h-[150vh] bg-black flex flex-col items-center text-center pt-20">
-      <h1 className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#2000FF] to-[#0596D5] motion-preset-blur-right motion-duration-1000">
+      <h1 className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#2000FF] to-[#0596D5] motion-preset-blur-right motion-duration-800">
         SOAR
       </h1>
-      <p className="mt-4 text-lg text-gray-500 motion-preset-blur-right motion-duration-1000">
+      <p className="mt-4 text-lg text-gray-500 motion-preset-blur-right motion-duration-800">
         A work gallery by Irfanda Sahid
       </p>
 
@@ -101,9 +101,9 @@ export default function Home() {
       </a>
     </div>
 
-    <footer className="w-full mt-20 py-6 border-t border-gray-900 text-center">
+    {/* <footer className="w-full mt-20 py-6 border-t border-gray-900 text-center">
       <p className="text-sm text-gray-600">Irfanda Sahid © 2025</p>
-    </footer>
+    </footer> */}
 
     </main>
 
