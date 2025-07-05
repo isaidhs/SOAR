@@ -20,7 +20,7 @@ export default function Home() {
           alt="Project 1"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
-        <div className="relative z-10 h-full w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-black/70 via-black/30 to-transparent">
+        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
           <h3 className="text-xl text-white-300 font-semibold">Medium Articles</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
             Curated insights and articles based on experiences
@@ -38,10 +38,10 @@ export default function Home() {
           alt="Project 2"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
-        <div className="relative z-10 h-full w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-black/70 via-black/30 to-transparent">
+        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
           <h3 className="text-xl text-white-300 font-semibold">Tableau Public</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Aiming to engage the visual senses
+            Aiming to engage with visual senses
           </h2>
         </div>
       </a>
@@ -56,7 +56,7 @@ export default function Home() {
           alt="Project 1"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
-        <div className="relative z-10 h-full w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-black/70 via-black/30 to-transparent">
+        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
           <h3 className="text-xl text-white-300 font-semibold">Risk Modeling</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
             Demonstrating risk modeling techniques
@@ -74,7 +74,7 @@ export default function Home() {
           alt="Project 1"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
-        <div className="relative z-10 h-full w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-black/70 via-black/30 to-transparent">
+        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
           <h3 className="text-xl text-white-300 font-semibold">Risk Analyst</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
             Showcasing risk analysis techniques
@@ -92,15 +92,21 @@ export default function Home() {
           alt="Project 1"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
-        <div className="relative z-10 h-full w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-black/70 via-black/30 to-transparent">
-          <h3 className="text-xl text-white-300 font-semibold">Agentic AI</h3>
+        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
+          <h3 className="text-xl text-white-300 font-semibold">Risk Agentic AI</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Catching up with the latest in AI development
+            Attempts to implement SOTA AI in risk domain
           </h2>
         </div>
       </a>
-</div>
+    </div>
+
+    <footer className="w-full mt-20 py-6 border-t border-gray-900 text-center">
+      <p className="text-sm text-gray-600">Irfanda Sahid © 2025</p>
+    </footer>
 
     </main>
+
+
   );
 }
