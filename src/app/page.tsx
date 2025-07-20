@@ -18,7 +18,7 @@ export default function Home() {
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <Image
-          src="/images/minimalism.jpg"
+          src="./images/minimalism.jpg"
           alt="Project 1"
           fill
           className="object-cover absolute inset-0 z-0"
@@ -38,7 +38,7 @@ export default function Home() {
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <Image
-          src="/images/artsy.jpg"
+          src="./images/artsy.jpg"
           alt="Project 2"
           fill
           className="object-cover absolute inset-0 z-0"
@@ -57,7 +57,7 @@ export default function Home() {
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <Image
-          src="/images/risk.jpg"
+          src="./images/risk.jpg"
           alt="Project 3"
           fill
           className="object-cover absolute inset-0 z-0"
