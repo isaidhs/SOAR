@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'SOAR',
-  description: 'A portfolio by Irfanda Sahid',
+  description: 'A portfolio by Irfanda Sahid'
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,6 +1,8 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <main className="min-h-[150vh] bg-black flex flex-col items-center text-center pt-20">
+    <main className="min-h-[150vh] bg-[#000000] flex flex-col items-center text-center pt-10">
       <h1 className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#2000FF] to-[#0596D5] motion-preset-blur-right motion-duration-800">
         SOAR
       </h1>
@@ -8,22 +10,24 @@ export default function Home() {
         A work gallery by Irfanda Sahid
       </p>
 
-      <div className="mt-20 px-6 w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2">
+      <div className="mt-20 px-6 w-full max-w-3xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
 
       {/* Card 1 */}
       <a
         href="https://isaidhs.medium.com/"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
-        <img
+        <Image
           src="/images/minimalism.jpg"
           alt="Project 1"
-          className="w-full h-full object-cover absolute inset-0 z-0"
+          fill
+          className="object-cover absolute inset-0 z-0"
         />
+
         <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
           <h3 className="text-xl text-white-300 font-semibold">Medium Articles</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Curated insights and articles based on experiences
+            Written thoughts on medium
           </h2>
         </div>
       </a>
@@ -33,15 +37,16 @@ export default function Home() {
         href="https://public.tableau.com/app/profile/irfanda.husni7244/vizzes"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
-        <img
+        <Image
           src="/images/artsy.jpg"
           alt="Project 2"
-          className="w-full h-full object-cover absolute inset-0 z-0"
+          fill
+          className="object-cover absolute inset-0 z-0"
         />
         <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
-          <h3 className="text-xl text-white-300 font-semibold">Tableau Public</h3>
+          <h3 className="text-xl text-white-300 font-semibold">Tableau Visualizations</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Aiming to engage with visual senses
+            Tableau visualizations and dashboards
           </h2>
         </div>
       </a>
@@ -51,51 +56,16 @@ export default function Home() {
         href="/portfolio/project-1"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
-        <img
+        <Image
           src="/images/risk.jpg"
-          alt="Project 1"
-          className="w-full h-full object-cover absolute inset-0 z-0"
+          alt="Project 3"
+          fill
+          className="object-cover absolute inset-0 z-0"
         />
         <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
-          <h3 className="text-xl text-white-300 font-semibold">Risk Modeling</h3>
+          <h3 className="text-xl text-white-300 font-semibold">Youtube Channel</h3>
           <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Demonstrating risk modeling techniques
-          </h2>
-        </div>
-      </a>
-
-      {/* Card 4 */}
-            <a
-        href="/portfolio/project-1"
-        className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
-      >
-        <img
-          src="/images/riskanalyst.jpg"
-          alt="Project 1"
-          className="w-full h-full object-cover absolute inset-0 z-0"
-        />
-        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
-          <h3 className="text-xl text-white-300 font-semibold">Risk Analyst</h3>
-          <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Showcasing risk analysis techniques
-          </h2>
-        </div>
-      </a>
-
-      {/* Card 5 */}
-      <a
-        href="/portfolio/project-1"
-        className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
-      >
-        <img
-          src="/images/agentic_ai.jpg"
-          alt="Project 1"
-          className="w-full h-full object-cover absolute inset-0 z-0"
-        />
-        <div className="relative z-10 w-full p-4 flex flex-col justify-end items-start text-left bg-gradient-to-t from-transparent via-black/70 to-black/90">
-          <h3 className="text-xl text-white-300 font-semibold">Risk Agentic AI</h3>
-          <h2 className="text-white text-sm group-hover:text-blue-400 transition">
-            Attempts to implement SOTA AI in risk domain
+            Attempted learning shared on Youtube
           </h2>
         </div>
       </a>
@@ -106,7 +76,5 @@ export default function Home() {
     </footer> */}
 
     </main>
-
-
   );
 }
