@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* Card 3 */}
       <a
-        href="/portfolio/project-1"
+        href="https://www.youtube.com/@HutomoSahidAcademy"
         className="relative rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group h-96"
       >
         <Image
